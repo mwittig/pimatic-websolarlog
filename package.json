@@ -1,0 +1,53 @@
+{
+  "name": "pimatic-websolarlog",
+  "description": "Pimatic Plugin for WebSolarLog (WSL), an open-source data logger for PV systems",
+  "author": {
+    "name": "Marcus Wittig",
+    "url": "https://github.com/mwittig/pimatic-websolarlog"
+  },
+  "main": "websolarlog",
+  "files": [
+    "websolarlog.coffee",
+    "README.md",
+    "websolarlog-config-schema.coffee",
+    "device-config-schema.coffee",
+    "LICENSE"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/mwittig/pimatic-websolarlog",
+  "keywords": [
+    "pimatic",
+    "SolarView",
+    "Solar Energy",
+    "Photovolatics",
+    "SmartHome",
+    "SmartMeter",
+    "Volkszaehler",
+    "Monitoring",
+    "Metering"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mwittig/pimatic-websolarlog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mwittig/pimatic-websolarlog/issues"
+  },
+  "licenses": [
+    {
+      "type": "GPLv2",
+      "url": "https://github.com/mwittig/pimatic-websolarlog/blob/master/LICENSE"
+    }
+  ],
+  "configSchema": "websolarlog-config-schema.coffee",
+  "dependencies": {
+    "node-websolarlog": ">=0.0.1"
+  },
+  "peerDependencies": {
+    "pimatic": ">0.8.19"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  }
+}
