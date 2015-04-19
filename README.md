@@ -1,5 +1,7 @@
 # pimatic-websolarlog
 
+[![npm version](https://badge.fury.io/js/pimatic-websolarlog.svg)](http://badge.fury.io/js/pimatic-websolarlog)
+
 Pimatic Plugin for WebSolarLog (WSL), an open-source data logger for PV systems - <http://www.websolarlog.com>.
 
 Note, this is an early version of the plugin provided for testing purposes. Please provide feedback via 
