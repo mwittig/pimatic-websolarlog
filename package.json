@@ -33,15 +33,10 @@
   "bugs": {
     "url": "https://github.com/mwittig/pimatic-websolarlog/issues"
   },
-  "licenses": [
-    {
-      "type": "GPLv2",
-      "url": "https://github.com/mwittig/pimatic-websolarlog/blob/master/LICENSE"
-    }
-  ],
+  "licenses": "GPL-2.0",
   "configSchema": "websolarlog-config-schema.coffee",
   "dependencies": {
-    "node-websolarlog": ">=0.0.1"
+    "node-websolarlog": ">=0.0.3"
   },
   "peerDependencies": {
     "pimatic": ">0.8.19"
