@@ -65,9 +65,7 @@ module.exports = (env) ->
     # poll device according to interval
     _scheduleUpdate: () ->
       if typeof @intervalObject isnt 'undefined'
-        clearInterval(=>
-          @intervalObject
-        )
+        clearInterval(@intervalObject)
 
       # keep updating
       if @interval > 0
