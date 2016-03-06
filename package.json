@@ -36,10 +36,10 @@
   "licenses": "GPL-2.0",
   "configSchema": "websolarlog-config-schema.coffee",
   "dependencies": {
-    "node-websolarlog": ">=0.0.3"
+    "node-websolarlog": "^0.0.4"
   },
   "peerDependencies": {
-    "pimatic": ">0.8.19"
+    "pimatic": "0.8.*"
   },
   "engines": {
     "node": ">0.8.x",

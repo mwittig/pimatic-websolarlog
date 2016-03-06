@@ -46,3 +46,5 @@ server.
     * Fixed clearInterval() call as part of the _scheduleUpdate() cycle
     * Aligned license with SPDX2.0 as part of package.json
     * Updated node-websolarlog
+* 20160306, V0.0.3
+    * Updated node-websolarlog
