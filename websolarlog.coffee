@@ -39,23 +39,23 @@ module.exports = (env) ->
   class WebSolarLogBaseDevice extends env.devices.Device
     # Initialize device by reading entity definition from middleware
     constructor: (@config, @plugin) ->
-      @debug = plugin.config.debug;
+      @debug = @plugin.config.debug;
       env.logger.debug("WebSolarLogBaseDevice Initialization") if @debug
-      @id = config.id
-      @name = config.name
+      @id = @config.id
+      @name = @config.name
 
-      parts = url.parse(config.url, false, true)
+      parts = url.parse(@config.url, false, true)
       if !parts.hostname?
         env.logger.error("Device URL must contain a hostname")
         @deviceConfigurationError = true;
 
       @options = {}
-      @options.name = config.deviceName || config.name
+      @options.name = @config.deviceName || @config.name
       @options.host = parts.hostname
       @options.path = parts.path if parts.path?
       @options.port = parts.port if parts.port?
       @options.protocol = parts.protocol if parts.protocol?
-      @interval = 1000 * (config.interval or plugin.config.interval)
+      @interval = 1000 * (@config.interval or @plugin.config.interval)
       super()
 
       if !@deviceConfigurationError
