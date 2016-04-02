@@ -4,8 +4,7 @@
 
 Pimatic Plugin for WebSolarLog (WSL), an open-source data logger for PV systems - <http://www.websolarlog.com>.
 
-Note, this is an early version of the plugin provided for testing purposes. Please provide feedback via 
-[github](https://github.com/mwittig/node-websolarlog/issues) or 
+Please provide feedback via [github](https://github.com/mwittig/node-websolarlog/issues) or 
 [pimatic-forum](http://forum.pimatic.org/category/13/plugins).
 
 ## Configuration
@@ -19,7 +18,7 @@ properties `interval` and `debug` represent the the default values.
           "plugin": "websolarlog",
           "interval": 30,
           "debug": false
-    },
+    }
 
 Then you need to add a device in the `devices` section. Currently, only the following device type is supported:
 
@@ -38,13 +37,12 @@ server.
           "url": "http://diehl-inverter-demo.websolarlog.com/api.php/Live",
     }
 
-## History
+## Release History
 
-* 20150417, V0.0.1
-    * Initial Version
-* 20160210, V0.0.2
-    * Fixed clearInterval() call as part of the _scheduleUpdate() cycle
-    * Aligned license with SPDX2.0 as part of package.json
-    * Updated node-websolarlog
-* 20160306, V0.0.3
-    * Updated node-websolarlog
+See [Release History](https://github.com/mwittig/pimatic-websolarlog/blob/master/HISTORY.md).
+
+## License
+
+Copyright (c) 2016, Marcus Wittig and contributors. All rights reserved.
+
+[GPL-2.0 License](https://github.com/mwittig/pimatic-websolarlog/blob/master/LICENSE).
