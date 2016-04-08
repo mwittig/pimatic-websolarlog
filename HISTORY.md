@@ -8,9 +8,9 @@
     * Updated node-websolarlog
 * 20160306, V0.0.3
     * Updated to node-websolarlog@0.0.4
-* 20160402, V0.0.4
+* 20160408, V0.0.4
+    * Updated peerDependencies property for compatibility with pimatic 0.9
+    * Fixed compatibility issue with Coffeescript 1.9 as required for pimatic 0.9
     * Updated to node-websolarlog@0.0.5
     * Moved release history to separate file
     * Added license info to README
-    * Updated peerDependencies property for compatibility with pimatic 0.9
-    * Fixed compatibility issue with Coffeescript 1.9 as required for pimatic 0.9
