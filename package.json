@@ -8,11 +8,11 @@
   "main": "websolarlog",
   "files": [
     "websolarlog.coffee",
-    "README.md",
     "websolarlog-config-schema.coffee",
     "device-config-schema.coffee",
     "LICENSE",
-    "HISTORY.md"
+    "HISTORY.md",
+    "README.md"
   ],
   "version": "0.0.4",
   "homepage": "https://github.com/mwittig/pimatic-websolarlog",
