@@ -14,3 +14,5 @@
     * Updated to node-websolarlog@0.0.5
     * Moved release history to separate file
     * Added license info to README
+* 20170321, V0.0.5
+    * Revised packaging to ensure README is included
