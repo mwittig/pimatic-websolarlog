@@ -1,5 +1,7 @@
 # pimatic-websolarlog
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mwittig/pimatic-websolarlog.svg)](https://greenkeeper.io/)
+
 [![npm version](https://badge.fury.io/js/pimatic-websolarlog.svg)](http://badge.fury.io/js/pimatic-websolarlog)
 
 Pimatic Plugin for WebSolarLog (WSL), an open-source data logger for PV systems - <http://www.websolarlog.com>.
